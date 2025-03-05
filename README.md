@@ -14,7 +14,7 @@ This Solidity smart contract enables **decentralized crowdfunding** with **NFT r
 ✅ **Refund Mechanism** – If a campaign fails, backers can claim refunds.  
 ✅ **Secure & Efficient** – Uses OpenZeppelin's **Ownable, ReentrancyGuard, and ERC721** standards.  
 
-## 🔧 Installation & Deployment  
+## 🔧 Dependencies & Installation  
 
 
 ## 📦 Dependencies  
@@ -33,4 +33,4 @@ Run the following command to install all dependencies:
 ```bash
 npm install @openzeppelin/contracts hardhat ethers dotenv
 
-### **hh**
+## **Usage**
