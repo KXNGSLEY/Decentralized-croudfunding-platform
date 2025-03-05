@@ -22,7 +22,7 @@ This project uses the following dependencies for secure and efficient smart cont
 
 | Dependency                     | Purpose |
 |--------------------------------|---------|
-| [**Solidity (0.8.x)**](https://soliditylang.org/) | Smart contract programming language |
+| [**Solidity (0.8.20)**](https://soliditylang.org/) | Smart contract programming language |
 | [**OpenZeppelin Contracts**](https://github.com/OpenZeppelin/openzeppelin-contracts) | Secure, audited smart contract templates (ERC721, Ownable, ReentrancyGuard) |
 | [**Hardhat**](https://hardhat.org/) | Smart contract development & testing framework |
 | [**Ethers.js**](https://docs.ethers.org/) | Library for interacting with Ethereum blockchain |
@@ -38,6 +38,17 @@ npm install @openzeppelin/contracts hardhat ethers dotenv
 
 ###  **Clone the Repository**  
 ```bash
-git clone https://github.com/YourGitHubUsername/crowdfunding-nft.git
-cd crowdfunding-nft
+git clone https://github.com/KXNGSLEY/Decentralized-croudfunding-platform.git
+cd Decentralized-croudfunding-platform
 
+```
+## For Usage on Remix
+just copy the code and paste in remix
+
+## 📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## 🌍 Connect
+📧 Email: nonsking2215@gmail.com
+🐦 Twitter: @nonsking2215
+💼 LinkedIn: Nonso Kingsley
