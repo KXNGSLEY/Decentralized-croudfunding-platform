@@ -1,4 +1,4 @@
-# Crowdfunding NFT Smart Contract 🚀  
+# Crowdfunding Smart Contract 🚀  
 
 ## 📜 Overview  
 This Solidity smart contract enables **decentralized crowdfunding** with **NFT rewards** for backers.  
