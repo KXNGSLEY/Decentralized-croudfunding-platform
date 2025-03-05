@@ -32,5 +32,12 @@ This project uses the following dependencies for secure and efficient smart cont
 Run the following command to install all dependencies:  
 ```bash
 npm install @openzeppelin/contracts hardhat ethers dotenv
+```
 
-## **Usage**
+## 🚀 Usage  
+
+###  **Clone the Repository**  
+```bash
+git clone https://github.com/YourGitHubUsername/crowdfunding-nft.git
+cd crowdfunding-nft
+
