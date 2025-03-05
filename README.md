@@ -50,5 +50,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## 🌍 Connect
 📧 Email: nonsking2215@gmail.com
+
 🐦 Twitter: @nonsking2215
+
 💼 LinkedIn: Nonso Kingsley
