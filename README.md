@@ -16,13 +16,6 @@ This Solidity smart contract enables **decentralized crowdfunding** with **NFT r
 
 ## 🔧 Installation & Deployment  
 
-### Prerequisites  
-Ensure you have **Node.js, Hardhat, and a Solidity-compatible wallet** installed.  
-
-1️⃣ **Clone the Repository**  
-```bash
-git clone https://github.com/YourGitHubUsername/crowdfunding-nft.git
-cd crowdfunding-nft
 
 ## 📦 Dependencies  
 This project uses the following dependencies for secure and efficient smart contract development:  
@@ -39,3 +32,5 @@ This project uses the following dependencies for secure and efficient smart cont
 Run the following command to install all dependencies:  
 ```bash
 npm install @openzeppelin/contracts hardhat ethers dotenv
+
+### **hh**
