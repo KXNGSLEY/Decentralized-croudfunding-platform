@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 
-contract CrowdfundingWithNFTs is ERC721URIStorage, ReentrancyGuard, Ownable, Pausable {
+contract crdfund is ERC721URIStorage, ReentrancyGuard, Ownable, Pausable {
     using Counters for Counters.Counter;
 
     struct Campaign {
@@ -68,7 +68,7 @@ contract CrowdfundingWithNFTs is ERC721URIStorage, ReentrancyGuard, Ownable, Pau
 
     function contribute(uint256 campaignId) external payable whenNotPaused nonReentrant {
         Campaign storage campaign = campaigns[campaignId];
-        require(block.timestamp < campaign.deadline, "Campaign ended");
+        require(block.timestamp < campaign.deadline, "The Campaign has ended");
         require(msg.value > 0, "Zero contribution");
 
         campaign.fundsRaised += msg.value;
@@ -137,4 +137,3 @@ contract CrowdfundingWithNFTs is ERC721URIStorage, ReentrancyGuard, Ownable, Pau
         _unpause();
     }
 }
-//    :)
